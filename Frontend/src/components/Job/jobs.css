@@ -1,0 +1,84 @@
+/* Jobs Component Styles */
+.jobs.page {
+    padding: 60px 0;
+    background-color: #f0f4f8;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .jobs .container {
+    width: 75%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .jobs h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #2a3b4c;
+    text-align: center;
+    border-bottom: 3px solid #4a90e2;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .jobs .banner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .jobs .card {
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure cards are of equal height */
+  }
+  
+  .jobs .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .jobs .card p {
+    font-size: 1.1em;
+    color: #3e4a56;
+    margin-bottom: 5px;
+    word-wrap: break-word; /* Ensure long words break and do not overflow */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    line-height: 1.6; /* Increase line height for better readability */
+  }
+  
+  .jobs .card a {
+    display: inline-block;
+    margin-top: auto; /* Push the link to the bottom of the card */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    word-wrap: break-word; /* Ensure long words break and do not overflow */
+    text-align: center;
+  }
+  
+  .jobs .card a:hover {
+    background-color: #357ab8;
+    transform: translateY(-3px);
+  }
+  

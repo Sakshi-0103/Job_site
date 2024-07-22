@@ -1,0 +1,56 @@
+/* JobDetails Component Styles */
+.jobDetail {
+  padding: 60px 0;
+  background-color: #f0f4f8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jobDetail .container {
+  width: 75%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.jobDetail h3 {
+  font-size: 2.5em;
+  margin-bottom: 25px;
+  color: #2a3b4c;
+  text-align: center;
+  border-bottom: 3px solid #4a90e2;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.jobDetail .banner p {
+  font-size: 1.2em;
+  color: #3e4a56;
+  margin: 10px 0;
+  line-height: 1.1;
+}
+
+.jobDetail .banner p span {
+  font-weight: bold;
+  color: #2a3b4c;
+}
+
+.jobDetail .banner a {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.jobDetail .banner a:hover {
+  background-color: #357ab8;
+  transform: translateY(-5px);
+}

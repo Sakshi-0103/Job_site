@@ -1,0 +1,96 @@
+/* Navbar Styles */
+.navbarShow, .navbarHide {
+    background-color: #9ec1e7; /* Suitable background color for job-seeking website */
+    color: rgb(31, 26, 26);
+    font-family: 'Courier New', Courier, monospace; /* Changed font type */
+    padding: 10px 0; /* Reduced padding to reduce the size */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin:0px;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+    border-radius: 50%; /* Adjusted height */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Reduced gap */
+  }
+  
+  .showMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px; /* Adjusted position */
+    right: 20px;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: rgb(13, 12, 12);
+    font-size: 0.9em; /* Reduced font size */
+    font-weight: bold;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .logoutButton {
+    background-color: #ff4757; /* Suitable logout button color */
+    border: none;
+    color: white;
+    padding: 5px 10px; /* Reduced padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em; /* Reduced font size */
+  }
+  
+  .logoutButton:hover {
+    background-color: #ff6b81;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger svg {
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+    
+    .hamburger {
+      display: block;
+    }
+    
+    .showMenu {
+      display: flex;
+    }
+  }
+  
